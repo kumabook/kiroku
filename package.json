@@ -1,0 +1,9 @@
+{
+  "name": "kiroku",
+  "version": "0.0.1",
+  "description": "javascript logger for minimalist ",
+  "main": "index.js",
+  "repository": "https://github.com/kumabook/kiroku",
+  "author": "Hiroki Kumamoto <kumabook@live.jp>",
+  "license": "MIT"
+}
