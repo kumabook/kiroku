@@ -12,7 +12,7 @@ var logger = {};
 
 function setLevel(newLevel) {
   if (!Object.keys(LEVEL).includes(newLevel)) {
-    throw new Error(`Unknown log level ${newLevel}`);
+    throw new Error('Unknown log level ' + newLevel);
   }
   Object.keys(LEVEL).forEach((l) => {
     if (LEVEL[l] >= LEVEL[newLevel]) {
