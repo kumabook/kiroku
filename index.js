@@ -1,4 +1,4 @@
-const LEVEL = {
+var LEVEL = {
   TRACE: 0,
   DEBUG: 1,
   INFO:  2,
@@ -6,9 +6,9 @@ const LEVEL = {
   ERROR: 4,
   FATAL: 5,
 };
-let level = 'TRACE';
+var level = 'TRACE';
 
-const logger = {};
+var logger = {};
 
 function setLevel(newLevel) {
   if (!Object.keys(LEVEL).includes(newLevel)) {
